@@ -142,10 +142,17 @@ A → D → G → F
 Първият път е същият като открития от алгоритъма на Дейкстра, тъй като той винаги е най-краткият. Вторият и третият път са алтернативи, намерени чрез модифицирани версии на графа, където се изключват определени ребра или маршрути от предишни решения според логиката на Йен. Всеки следващ път е по-дълъг, но алгоритъмът успешно избягва дублиране на вече използвани маршрути и намира уникални решения.
 
 ### 5.3.	Потребителски зададени входни данни
-
-![](https://github.com/stoyan-stunji/fmi-np-yens-alg/blob/main/documentation/pictures/y2.png)
-
-
+``` java
+Enter NUM-OF-EDGES, START, TARGET, K (space-separated):
+5 A D 2
+Enter each edge in the format: FROM TO WEIGHT
+Edge 1: A в 1
+Edge 2: A C 2
+Edge 3: B C 2
+Edge 4: C D 1
+Edge 5: B D 5
+Result from server: [[A, C, D] (3,00), [A, B, C, 0] (4,00)]
+```
 ![](https://github.com/stoyan-stunji/fmi-np-yens-alg/blob/main/documentation/pictures/y3.png)
 
 ## 6.	Заключение
