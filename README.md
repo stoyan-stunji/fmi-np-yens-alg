@@ -172,7 +172,6 @@ Result from server: [[A, C, D] (3,00), [A, B, C, 0] (4,00)]
 6.2. Използвана литература
 
 -	https://en.wikipedia.org/wiki/Yen%27s_algorithm
--	https:://haydushki-fmi/yen_algorithm
 -	https://docs.oracle.com/javase/tutorial/
 -	https://neo4j.com/docs/graph-data-science/current/algorithms/yens/
 -	https://people.csail.mit.edu/minilek/yen_kth_shortest.pdf
